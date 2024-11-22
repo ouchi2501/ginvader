@@ -2,7 +2,7 @@
 
 A terminal-based Space Invaders clone written in Go.
 
-![Ginvader Demo](docs/images/demo.gif)
+![Ginvader](docs/images/ginvader.png)
 
 ## Description
 
@@ -20,7 +20,7 @@ Ginvader is a CLI game that brings the classic Space Invaders experience to your
 
 ## Requirements
 
-- Go 1.21 or higher (only for building from source)
+- Go 1.23 or higher (only for building from source)
 - Terminal with color support
 
 ## Installation

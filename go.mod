@@ -1,6 +1,6 @@
 module ginvader
 
-go 1.21
+go 1.23
 
 require github.com/gdamore/tcell/v2 v2.6.0
 
