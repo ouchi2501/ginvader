@@ -18,14 +18,23 @@ Ginvader is a CLI game that brings the classic Space Invaders experience to your
 
 ## Requirements
 
-- Go 1.21 or higher
+- Go 1.21 or higher (only for building from source)
 - Terminal with color support
 
 ## Installation
 
+### Using Homebrew (recommended for macOS)
+
+```bash
+brew tap ouchi2501/tap
+brew install ginvader
+```
+
+### Building from Source
+
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ginvader.git
+git clone https://github.com/ouchi2501/ginvader.git
 cd ginvader
 ```
 
@@ -36,14 +45,19 @@ go mod tidy
 
 ## How to Play
 
-1. Start the game:
+1. If installed via Homebrew:
+```bash
+ginvader
+```
+
+2. If building from source:
 ```bash
 go run cmd/ginvader/main.go
 ```
 
-2. Show help and game instructions:
+3. Show help and game instructions:
 ```bash
-go run cmd/ginvader/main.go -h
+ginvader -h
 ```
 
 ### Controls
