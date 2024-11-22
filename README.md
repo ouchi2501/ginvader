@@ -2,6 +2,8 @@
 
 A terminal-based Space Invaders clone written in Go.
 
+![Ginvader Demo](docs/images/demo.gif)
+
 ## Description
 
 Ginvader is a CLI game that brings the classic Space Invaders experience to your terminal. Fight against waves of alien invaders, dodge their bullets, and try to achieve the highest score possible!
